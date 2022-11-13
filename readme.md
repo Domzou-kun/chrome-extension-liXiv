@@ -1,4 +1,4 @@
-![liXiv Logo]()
+![liXiv Logo](https://github.com/Domzou-kun/chrome-extension-liXiv/blob/master/liXiv_header_icon.png)
 
 ---
 
