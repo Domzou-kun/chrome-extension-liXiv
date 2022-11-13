@@ -1,0 +1,13 @@
+/*new LIKE contents space css*/
+.like {
+    clear: both;
+    margin: 0;
+    padding: 0 1em .5em 1em;
+    font-size: 90%;
+    border-top: medium solid #ddd;
+    border-left: .35em solid #ddd;
+}
+
+
+
+

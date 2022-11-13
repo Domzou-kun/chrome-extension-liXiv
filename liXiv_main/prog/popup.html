@@ -1,0 +1,106 @@
+<html>
+<head>
+    <style>
+    div#like_link {
+        width: 510px;
+        height: auto;
+        background-color:white;
+        overflow-y: auto;
+    }
+
+    p > a {
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0);
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        width: 450px;
+        height: auto;
+        font-weight: 700;
+        padding: 0.4rem 0.4rem;
+        text-decoration: none;
+        transition: .3s;
+        margin-left: 3px;
+    }
+    a:hover{
+        box-shadow: 0px 12px 24px rgba(255, 41, 41, 0.849);
+        transform: translateY(-4px);
+    }
+
+    button[name="delete_btn"] {
+        width: auto;
+        padding:0;
+        margin:0;
+        background:none;
+        border:0;
+        font-size:0;
+        line-height:0;
+        overflow:visible;
+        cursor:pointer;
+        float: right;
+    }
+    button[name="memo_btn"] {
+        width: auto;
+        padding:0;
+        margin:0;
+        background:none;
+        border:0;
+        font-size:0;
+        line-height:0;
+        overflow:visible;
+        cursor:pointer;
+        float: right;
+    }
+    button[name="save_btn"] {
+        width: auto;
+        padding:0;
+        margin:0;
+        background:none;
+        border:0;
+        font-size:0;
+        line-height:0;
+        overflow:visible;
+        cursor:pointer;
+        float: right;
+    }
+
+
+    h2 {
+        position: relative;
+        padding: 0.6em;
+        background: -moz-linear-gradient(top, #ff2525, #ffc1c1);
+        background: -webkit-linear-gradient(top, #ff2525, #ffc1c1);
+        background: linear-gradient(to bottom, #ff2525, #ffc1c1);
+        font-weight: 1000;
+        color: #ffffff;
+    }
+    h2:after {
+        position: absolute;
+        content: '';
+        top: 100%;
+        left: 30px;
+        border: 15px solid transparent;
+        border-top: 15px solid #ffc1c1;
+        width: 0;
+        height: 0;
+    }
+
+    </style>
+    <title>Like arXiv</title>
+</head>
+<body>
+    <h2>My favorite arXiv</h2>
+    <div id="like_link">
+    </div>
+    <script type="text/javascript" src="popup.js"></script>
+    <script src="tab_make.js"></script>
+    <script src="button_action.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
